@@ -10,6 +10,14 @@ a multi-thread downloader for android
 ##System requirements
 Android 2.2+
 
+##Dependencies
+1. ormlite-core [https://github.com/j256/ormlite-core](https://github.com/j256/ormlite-core)
+2. ormlite-android [https://github.com/j256/ormlite-android](https://github.com/j256/ormlite-android)
+3. android-log [https://github.com/snowdream/android-log](https://github.com/snowdream/android-log)
+4. android-multithread [https://github.com/snowdream/android-multithread](https://github.com/snowdream/android-multithread)  
+5. Apache commons-lang3 [http://commons.apache.org/proper/commons-lang/](http://commons.apache.org/proper/commons-lang/)    
+Check this for more informaion. [build.gradle](https://github.com/snowdream/android-downloader/blob/master/lib/build.gradle)
+
 ##Download
 Download [the latest jar][1] or grab via Maven:
 
