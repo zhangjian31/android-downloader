@@ -10,6 +10,12 @@ a multi-thread downloader for android
 ##System requirements
 Android 2.2+
 
+##Permission requirements
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
 ##Dependencies
 1. ormlite-core [https://github.com/j256/ormlite-core](https://github.com/j256/ormlite-core)
 2. ormlite-android [https://github.com/j256/ormlite-android](https://github.com/j256/ormlite-android)
