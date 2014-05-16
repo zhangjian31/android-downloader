@@ -24,8 +24,8 @@ import android.widget.BaseAdapter;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.github.snowdream.android.app.DownloadManager;
-import com.github.snowdream.android.app.DownloadTask;
+import com.github.snowdream.android.app.downloader.DownloadManager;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 import com.github.snowdream.android.util.Log;
 
 import java.io.File;

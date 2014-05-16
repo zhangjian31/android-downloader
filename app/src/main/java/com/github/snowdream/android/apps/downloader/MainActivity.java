@@ -23,7 +23,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.github.snowdream.android.app.*;
+import com.github.snowdream.android.app.downloader.DownloadListener;
+import com.github.snowdream.android.app.downloader.DownloadManager;
+import com.github.snowdream.android.app.downloader.DownloadStatus;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 import com.github.snowdream.android.util.Log;
 import net.simonvt.menudrawer.MenuDrawer;
 
@@ -95,7 +98,7 @@ public class MainActivity extends ListActivity implements MenuAdapter.MenuListen
         setListAdapter(adapter);
 
         DownloadTask task = new DownloadTask(this);
-        task.setUrl("https://github.com/snowdream/android-autoupdate/raw/master/docs/test/android-autoupdater-v0.0.2-release.apk");
+        task.setUrl("https://raw.githubusercontent.com/snowdream/android-autoupdater/master/docs/test/android-autoupdater-v2.0-release.apk");
         downloadManager.add(task, listener);
     }
 

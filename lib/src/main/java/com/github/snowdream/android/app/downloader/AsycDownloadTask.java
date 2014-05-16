@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-package com.github.snowdream.android.app;
+package com.github.snowdream.android.app.downloader;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 
-import com.github.snowdream.android.app.dao.ISql;
-import com.github.snowdream.android.app.dao.ISqlImpl;
+import com.github.snowdream.android.app.downloader.dao.ISql;
+import com.github.snowdream.android.app.downloader.dao.ISqlImpl;
 import com.github.snowdream.android.util.Log;
 import com.github.snowdream.android.util.concurrent.AsyncTask;
 

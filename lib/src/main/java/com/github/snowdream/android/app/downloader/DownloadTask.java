@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.snowdream.android.app;
+package com.github.snowdream.android.app.downloader;
 
 import android.content.Context;
 import android.text.TextUtils;

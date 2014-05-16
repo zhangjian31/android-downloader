@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.github.snowdream.android.app.dao;
+package com.github.snowdream.android.app.downloader.dao;
 
 import android.content.Context;
-import com.github.snowdream.android.app.DownloadTask;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 import com.j256.ormlite.dao.Dao;
 

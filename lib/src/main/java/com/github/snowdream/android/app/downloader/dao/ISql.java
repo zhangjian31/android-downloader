@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.github.snowdream.android.app.dao;
+package com.github.snowdream.android.app.downloader.dao;
 
-import com.github.snowdream.android.app.DownloadTask;
+import com.github.snowdream.android.app.downloader.DownloadTask;
 
 import java.sql.SQLException;
 
